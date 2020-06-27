@@ -14,7 +14,7 @@ public class AssertionTest {
 		System.setProperty("webdriver.chrome.driver","/Users/alanwest/Desktop/Selenium WebDriver/Drivers/chromedriver");  
 		WebDriver driver = new ChromeDriver();  
 		
-		driver.navigate().to("https://www.spicejet.com/"); 
+		driver.navigate().to("https://www.google.com/"); 
 		
 		driver.findElement(By.id("divpaxinfo")).click();
 		driver.findElement(By.id("ctl00_mainContent_ddl_Adult")).click();
